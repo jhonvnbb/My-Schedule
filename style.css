@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+}
+body {
+  background-color: #081b29;
+  /* background-image: url(https://web.kominfo.go.id/sites/default/files/5f26a12453d77.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ededed;
+  font-family: sans-serif;
+}
+/* Navbar Start */
+.nav {
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 150px;
+}
+.navbar-logo a {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.navbar-logo a:hover {
+  color: #005f97;
+}
+.navbar-logo a span {
+  color: #005f97;
+}
+.navbar-content a {
+  font-size: 18px;
+  padding-left: 50px;
+  color: #fff;
+  font-weight: 600;
+}
+.navbar-content a:hover {
+  color: #005f97;
+}
+/* Navbar End */
+
+/* Section Start */
+.isi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://akcdn.detik.net.id/visual/2022/09/23/deretan-sosok-hacker-berbahaya-di-duniafoto-freepikfreepik.jpeg?w=480&q=90);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 75%;
+  border-radius: 10px;
+  margin: 50px auto;
+  padding: 25px;
+}
+
+.isi-content {
+  text-align: center;
+  padding: 35px 100px;
+  margin: 35px;
+  background-image: url(https://akcdn.detik.net.id/visual/2022/09/23/deretan-sosok-hacker-berbahaya-di-duniafoto-freepikfreepik.jpeg?w=480&q=90);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-color: rgba(8, 28, 43, 1); */
+  border-radius: 25px;
+}
+
+.isi-content img {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  height: 150px;
+  width: 150px;
+}
+.dataku {
+  padding: 0 40px;
+  border-radius: 20px;
+}
+
+.dataku p {
+  font-size: 10px;
+  color: #ccc;
+  margin: 15px 0 7px 0;
+}
+.dataku a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+.data {
+  margin: 0 0 15px 0;
+}
+.data li {
+  margin: 7px;
+  color: #ededed;
+  font-size: 13px;
+}
+.btn {
+  border: 1px solid #ededed;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn-box {
+  height: 35px;
+}
+
+.btn-box a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  background: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 8px;
+  font-size: 19px;
+  color: #081b29;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btn-box a:hover {
+  color: #00abf0;
+}
+
+.btn-box a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081b29;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.btn-box a:hover::before {
+  width: 100%;
+}
+/* Section End */
+
+/* Footer Start */
+footer {
+  padding: 0 5px;
+  text-align: center;
+}
+footer .credit {
+  font-size: 10px;
+  color: #ccc;
+}
+
+footer .credit a {
+  text-decoration: none;
+  margin: 5px;
+  color: #ededed;
+}
+/* Footer End */

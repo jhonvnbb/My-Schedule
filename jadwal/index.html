@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jadwal</title>
+
+    <!-- CSS KU -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        border: none;
+      }
+      body {
+        background-color: #081b29;
+        color: #ededed;
+        font-family: sans-serif;
+      }
+      /* Navbar Start */
+      .nav {
+        border-bottom: 1px solid #fff;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15px 150px;
+      }
+      .navbar-logo a {
+        color: #fff;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-style: italic;
+      }
+      .navbar-logo a:hover {
+        color: #005f97;
+      }
+      .navbar-logo a span {
+        color: #005f97;
+      }
+      .navbar-content a {
+        font-size: 18px;
+        padding-left: 50px;
+        color: #fff;
+        font-weight: 600;
+      }
+      .navbar-content a:hover {
+        color: #005f97;
+      }
+      /* Navbar End */
+
+      /* Section Start */
+      .container {
+        width: 80%;
+        margin: 50px auto;
+      }
+      .container h1{
+        text-align: center;
+        margin: 10px 0 25px 0;
+        color: #eee;
+      }
+      .tabel {
+        border-collapse: collapse;
+      }
+      .tabel th,
+      .tabel td {
+        border: 1px solid #010101;
+        padding: 15px;
+        text-align: center;
+      }
+      .tabel th {
+        background-color: #4CAF50;
+      }
+      .tabel tbody tr:nth-child(even) {
+        background-color: #005f97;
+      }
+      .tabel tbody tr:hover {
+        background-color: #aaa;
+      }
+      /* Section End */
+
+      /* Footer Start */
+      footer {
+        padding: 0 5px;
+        text-align: center;
+      }
+      footer .credit {
+        font-size: 10px;
+        color: #ccc;
+      }
+
+      footer .credit a {
+        text-decoration: none;
+        margin: 5px;
+        color: #ededed;
+      }
+      /* Footer End */
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="nav">
+      <div class="navbar">
+        <div class="navbar-logo">
+          <a href="https://github.com/jhonvnbb"
+            >github.com/<span>jhonvnbb</span></a
+          >
+        </div>
+        <div class="navbar-content">
+          <a href="/index.html">Home</a>
+          <a href="/jadwal/">Jadwal</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Section Start -->
+    <section class="container">
+      <h1>MySchedule ❀</h1>
+        <table class="tabel">
+          <thead>
+            <tr>
+              <th>No.</th>
+              <th>Time</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+              <th>Sunday</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>07.30 - 09.10</td>
+              <td>Pemrograman Deklaratif</td>
+              <td>Internet of Things</td>
+              <td>Pemrosesan Data Terdistribusi</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+              <td>---</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>09.20 - 11.00</td>
+                <td>Pemrograman Deklaratif</td>
+                <td>Analisis dan Desain SI</td>
+                <td>---</td>
+                <td>Teknologi dan Aplikasi Mobile</td>
+                <td>Pemrograman Web</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>11.10 - 12.50</td>
+                <td>Pemrosesan Data Terdistribusi</td>
+                <td>Kecerdasan Buatan</td>
+                <td>Analisis dan Desain SI</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>13.30 - 15.10</td>
+                <td>Pembelajaran Mesin</td>
+                <td>Teori Informasi</td>
+                <td>Pembelajaran Mesin</td>
+                <td>Kecerdasan Buatan</td>
+                <td>Internet of Things</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>15.30 - 17.10</td>
+                <td>Teknologi dan Aplikasi Mobile</td>
+                <td>---</td>
+                <td>---</td>
+                <td>Pemrograman Web</td>
+                <td>Manajemen Pengetahuan</td>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+          </tbody>
+        </table>
+    </section>
+    <!-- Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="credit">
+        <p>
+          Created by
+          <a href="https://github.com/jhonvnbb"><i>Jhon V Nababan</i></a> |
+          &copy;2024.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </body>
+</html>
